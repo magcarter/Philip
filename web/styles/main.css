@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 24, 2020, 7:51:08 PM
+    Author     : Maggie
+*/
+body{
+
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sectionBackGround
+{
+     min-height: 32.5em;
+    padding-top: 1em; 
+  
+}
+
+header 
+{
+    background-color: #FFFFFF;
+    color: black;   
+    margin: 0;
+    padding-top:1em;
+    padding-bottom: .8em;
+}
+
+
+header h1 
+{
+    padding-top: .5em;
+    padding-left: .5em;
+}
+
+header a
+{  
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 10.7px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+header  a:hover, a:focus
+{
+    background-color: #C4C4C4;
+        /*#ffe6e6;*/
+    
+    
+}
+
+header a:visited
+{
+    color: #ff3e3e;
+        /*#ff7171;*/
+
+}
+
+#headerText
+{
+    /*margin-bottom: .75em;*/
+}
+
+nav{
+    /*background-color: #DFDDDD;*/
+    padding: .5em;
+}
+
+
+.sectionClass{
+    text-align: center;
+   
+}
+
+#homePageImage
+{
+    max-height: 15em;
+ 
+}
+.peoplePicsDiv{
+position: absolute;
+width: 116px;
+height: 97px;
+left: 27em;
+top: 15em;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.peoplePics
+{
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: 10em;
+}
+footer
+{
+    background-color: #DFDDDD;
+    height: 1.75em;
+    color: #ff3e3e;
+    text-align: center;
+    padding-top: .15em;
+   
+
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+
+}

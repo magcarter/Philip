@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Philip">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/vehicle_rental" password="sesame" removeAbandoned="true" removeAbandonedTimeOut="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3308/vehicle_rental_basic" username="root"/>
+</Context>
